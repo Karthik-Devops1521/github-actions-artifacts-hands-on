@@ -25,8 +25,8 @@ jobs:
     steps:
       - name: download-artifact
         with: 
-        name: hello-artifact
-        path: ./artifacts
+          name: hello-artifact
+          path: ./artifacts
 
       - name: display content
         run: cat ./artifacts/hello.txt
